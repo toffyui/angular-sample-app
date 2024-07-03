@@ -1,10 +1,11 @@
 # AngularSampleApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+This project was created by following [Angular Tutorial](https://angular.dev/tutorials/first-app).
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `json-server --watch db.json` for json-server.
+Then Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
