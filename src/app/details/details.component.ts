@@ -22,10 +22,14 @@ export class DetailsComponent {
     email: new FormControl(''),
   });
   constructor() {
-    const housingLocationId = Number(this.route.snapshot.params['id']);
-    this.housingLocation =
-      this.HousingLocationService.getHousingLocationById(housingLocationId);
+    const housingLocationId = parseInt(this.route.snapshot.params['id'], 10);
+    this.HousingLocationService.getHousingLocationById(housingLocationId).then(
+      (housingLocation) => {
+        this.housingLocation = housingLocation;
+      },
+    );
   }
+
   submitApplication() {
     this.HousingLocationService.submitApplication(
       this.applyForm.value.firstName ?? '',
