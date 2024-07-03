@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #ff6f61;
+  --secondary-color: #ff9f1c;
+  --tertiary-color: #ffbf69;
+  --quaternary-color: #ffffff;
+  --quinary-color: #000000;
+  --senary-color: #f2f2f2;
+  --septenary-color: #f8f8f8;
+  --octonary-color: #f0f0f0;
+  --nonary-color: #e0e0e0;
+  --denary-color: #d0d0d0;
+}
